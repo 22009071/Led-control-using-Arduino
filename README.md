@@ -1,5 +1,6 @@
 # Led-control-using-Arduino
-
+### REG NO :212222230059
+### NAME : kabilan T
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
@@ -58,10 +59,12 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
-[ex 1.pdf](https://github.com/22009071/Led-control-using-Arduino/files/14431125/ex.1.pdf)
+<img width="545" alt="Screenshot 2024-02-28 142727" src="https://github.com/22009071/Led-control-using-Arduino/assets/120206067/23f5a49a-80a2-412c-868c-7706972c2d96">
+
 
 ## PROGRAM
-```const int buttonPin=2;
+```
+const int buttonPin=2;
 const int ledPin=13;
 int buttonState=0;
 void setup() {
@@ -81,7 +84,8 @@ void loop() {
   {
     digitalWrite(ledPin,LOW);
   }
-}```
+}
+```
 ## OUTPUT
 
 
