@@ -58,9 +58,39 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+[ex 1.pdf](https://github.com/22009071/Led-control-using-Arduino/files/14431125/ex.1.pdf)
 
 ## PROGRAM
+```const int buttonPin=2;
+const int ledPin=13;
+int buttonState=0;
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(ledPin,OUTPUT);
+  pinMode(buttonPin,INPUT);
+}
 
+void loop() {
+  // put your main code here, to run repeatedly:
+  buttonState = digitalRead(buttonPin);
+  if(buttonState==HIGH)
+  {
+    digitalWrite(ledPin,HIGH);
+  }
+  else 
+  {
+    digitalWrite(ledPin,LOW);
+  }
+}```
 ## OUTPUT
+### LED OFF
+<img width="614" alt="Screenshot 2024-02-28 140807" src="https://github.com/22009071/Led-control-using-Arduino/assets/120206067/1b2ad48f-0d5c-4df4-9862-811efee0e6dd">
+
+
+### LED ON
+
+<img width="748" alt="Screenshot 2024-02-21 145517" src="https://github.com/22009071/Led-control-using-Arduino/assets/120206067/876c619b-b62c-4a27-adf4-aba9007fc5d5">
+
+
 
 ## RESULT
