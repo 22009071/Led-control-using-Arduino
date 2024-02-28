@@ -1,6 +1,6 @@
-# Led-control-using-Arduino
-### REG NO :212222230059
-### NAME : kabilan T
+ # EXP NO:1  Led control using Arduino
+ REG NO :212222230059
+ NAME : kabilan T
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
@@ -96,8 +96,10 @@ void loop() {
 
 ### LED ON
 
-<img width="748" alt="Screenshot 2024-02-21 145517" src="https://github.com/22009071/Led-control-using-Arduino/assets/120206067/876c619b-b62c-4a27-adf4-aba9007fc5d5">
+<img width="641" alt="image" src="https://github.com/22009071/Led-control-using-Arduino/assets/120206067/92503a7b-ff21-4d14-b94d-c044f721eb2b">
+
 
 
 
 ## RESULT
+Thus to design and implement a system for LED control using an Arduino microcontroller and a push button is successfully executed
